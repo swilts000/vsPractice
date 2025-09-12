@@ -3,9 +3,22 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 1000px;
+    height: 1200px;
 }
-.title{
+.avatar {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    background-color: #8897e1;
+    margin-top: 10px;
+    left: 25%;
+    border-radius: 50%;
+    background-image: url(../images/kang-1.jpg);
+    background-size: cover;
+}
+
+
+.title {
     text-align: center;
     font-size: 50px;
     background: #e6c975;
@@ -14,19 +27,21 @@ body{
 }
 form {
     width: 300px;
-    height: 500px;
+    height: 600px;
+    top: 0px;
+    position: absolute;
     border: 10px;
     border-color: rgb(71, 133, 248);
     border-style: groove;
     margin-top: 15%;
-    margin-left: 35%;
+    margin-left: 40%;
     text-align: center;
     background: #2b7fa1;
     background: linear-gradient(90deg,rgba(43, 127, 161, 1) 0%, rgba(87, 199, 133, 1) 7%, rgba(237, 221, 83, 1) 100%);
     }
 h1 {
     margin-left: 15%;
-    margin-bottom: 60px;
+    margin-top: 15px;
     width: 200px;
     text-align: center;
     border-style: solid;
@@ -59,6 +74,7 @@ button{
     color: rgb(61, 50, 33);
     background: #8897e1;
     background: radial-gradient(circle, rgb(138, 152, 224) 3%, rgb(177, 209, 245) 100%);
+    margin-top: -20px;
     border: 0px;
     border-radius: 40px;
 }
